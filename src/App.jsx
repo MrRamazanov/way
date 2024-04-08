@@ -1,13 +1,21 @@
 import NewPassword from "./Components/NewPassword"
 import ChangePassword from "./Components/ChangePassword"
+import MyCars from "./Components/MyCars"
+import MyCarsBG from "./Components/MyCarsBG"
+import Rezerv from "./Components/Rezerv"
 function App() {
   
 
   return (
-    <div className="h-screen flex justify-evenly items-center bg-[rgb(191,191,194)] ">
+    // bg-[rgb(191,191,194)]
+    <div className="h-screen ">
       
     {/* <NewPassword/> */}
-    <ChangePassword/>
+    {/* <ChangePassword/> */}
+    {/* <Profile /> */}
+    {/* <MyCars/> */}
+    {/* <MyCarsBG/> */}
+    <Rezerv/>
     </div>
   )
 }
